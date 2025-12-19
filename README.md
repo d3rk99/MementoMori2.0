@@ -38,6 +38,13 @@ config.example.json          # Copy to config.json and fill in IDs/token
    python -m src.main
    ```
 
+### Windows quickstart
+Use the provided batch script to install dependencies in a local virtual environment and launch the bot:
+
+```bat
+run_deathwatcher.bat
+```
+
 ## Configuration notes
 - `path_to_logs_directory` should contain DayZ Detailed Logs; the bot always picks the newest `dl_*.ljson` file.
 - `userdata_db_path` and `path_to_cache` are JSON files persisted between runs.

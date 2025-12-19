@@ -8,10 +8,10 @@ from typing import Optional
 import discord
 from discord.ext import commands, tasks
 
-from config import Config
-from services.user_service import UserService
-from services.banlist_service import BanlistService
-from watchers.log_watcher import LogWatcher
+from ..config import Config
+from ..services.user_service import UserService
+from ..services.banlist_service import BanlistService
+from ..watchers.log_watcher import LogWatcher
 
 logger = logging.getLogger(__name__)
 

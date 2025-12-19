@@ -2,8 +2,8 @@ import asyncio
 import logging
 from pathlib import Path
 
-from config import Config
-from bot.death_watcher_bot import run_bot
+from .config import Config
+from .bot.death_watcher_bot import run_bot
 
 
 def main():

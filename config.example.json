@@ -1,0 +1,17 @@
+{
+  "token": "YOUR_DISCORD_TOKEN",
+  "guild_id": 123456789012345678,
+  "alive_role_id": 111111111111111111,
+  "dead_role_id": 222222222222222222,
+  "admin_role_id": 333333333333333333,
+  "join_vc_id": 444444444444444444,
+  "online_category_id": 555555555555555555,
+  "bot_spam_channel_id": 666666666666666666,
+  "path_to_logs_directory": "./dayz_logs",
+  "userdata_db_path": "./data/users.json",
+  "path_to_cache": "./data/cache.json",
+  "ban_txt_path": "./data/ban.txt",
+  "whitelist_txt_path": "./data/whitelist.txt",
+  "ban_duration_days": 3,
+  "verbose_logs": false
+}
